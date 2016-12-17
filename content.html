@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> </title>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+<body class="wumbo" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"> Equalife </a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#about">About</a></li>
+        <li><a href="#graph-fourm">Graph Fourm</a></li>
+        <li><a href="#graph">Graph</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron jumbotron-fluid">
+       
+  
+  <div class="snow">
+    <h1>Equal Life</h1>
+  </div>
+  </div>
+  <div class="about section" id="about">
+    <!--<h2 id= "about"> About </h2>/-->
+    <h2>Payment and equality within the working force does not exist. People of color, and women are constantly marginalized and get payed less. This is not right, so in this website we spread awareness of the injustice and that goes around. </h2>
+  </div>
+<div class="graph-fourm section"id="graph-fourm">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch Forum</button>
+      <button id="averageButton" type="button" class="btn btn-primary btn-lg">
+  Get Average</button>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content myModal">
+        <div class="modal-header">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel"> Forum </h4>
+        </div>
+        <div class="modal-body">
+          <p> What company do you work at </p>        
+          <input id = "company" type="text">
+          <p> What gender are you?</p>
+          <input id = "gender" type = "text">
+          <p> What's your race? </p>
+          <input id = "race" type = "text">
+          <p> What's your annual salary? </p>
+          <input id = "salary" type = "text">
+          <p> How many hours a week do you work?</p>
+          <input id = "hours" type = "text">
+          <p> What's your name?</p>
+          <input id = "name" type = "text">
+        </div>
+        <div class="modal-footer">
+          <button id="savec" type="button" class="btn btn-primary" data-dismiss="modal" >Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div> 
+
+<div id="graph" style="height: 400px; width:75%; margin: 0 auto"></div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

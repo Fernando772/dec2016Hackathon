@@ -1,0 +1,132 @@
+#graph{
+    background-color:#F4FFF8;
+    padding-bottom:250px;
+    padding-top:250px;
+}
+body{
+    position: relative;
+    background-color:#F4FFF8;
+}
+/*color for nav bar #88FFB3, color for buttons #88FFE6 */
+.section{
+    padding:30px;
+    background-color:#F4FFF8;
+    /*min-height: 500px; */
+}
+
+.about{
+   /* margin-top:50px; */
+    background-color:#050D21;
+}
+
+.graph-fourm{
+    padding-left:calc(50% -10px);
+    
+}
+ .graph-fourm button{
+    float:left;
+    margin-right:10px;
+}
+
+.myModal{
+    /*width: 300px; */
+    height: 500px; 
+    background-color:blue;
+}
+.highcharts-tooltip h3 {
+    margin: 0.3em 0;
+}
+*{
+  font-family: "proxima-nova-soft", "Proxima Nova Soft", Helvetica, Arial, sans-serif;
+  
+}
+
+.wumbo h2{
+ font-size:35px;
+ text-transform:uppercase;
+ color:#00FFA5;
+ line-height:48px;
+}
+.wumbo  h1{
+    position: absolute;
+    text-align: center;
+    top: 50vh;
+    left: 33.3%;
+    text-shadow: 3px 4px 14px #080808;
+}
+
+.wumbo .jumbotron h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.snow{
+ background-image: url('http://i.imgur.com/BiSmXaq.png'), url('http://i.imgur.com/XHuy0NJ.png'), url('http://i.imgur.com/okpRxJU.png');
+ height: 100%;
+width:100%;
+ -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+}
+
+.wumbo .jumbotron{
+ background-image: url("http://cdn.pcwallart.com/images/skyline-wallpaper-4.jpg"); 
+ background-size: 100%;
+ height: 100vh; 
+ background-repeat:no-repeat;
+ margin-bottom:0px;
+padding: 0;
+
+}
+.wumbo .navbar{
+    background-color:transparent;
+    border:none;
+}
+.wumbo .navbar-inverse .navbar-nav .active a{
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+.wumbo .navbar-inverse .navbar-nav .active a:hover{
+  background-color:transparent; 
+   color:black;
+}
+.wumbo .navbar-inverse .navbar-nav a:hover{
+    color:black;
+}
+#about{
+    text-align:center;
+}
+/*http://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling */
+
+/*keyframes for snow*/
+@-webkit-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% {  }
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-moz-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% {}
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@-ms-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50% {}
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+@keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    50%  {}
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
